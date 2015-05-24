@@ -1,0 +1,19 @@
+
+.highlight {
+	background-color: #FFBBBB;
+	border-top: solid red .1em;
+	border-bottom: solid red .1em;
+}
+
+version:after { 
+	content:"\A"; white-space:pre;
+}
+line:after { 
+	content:"\A"; white-space:pre;
+}
+
+.textbox {
+	width: 30em;
+	border: solid black 1px;
+	padding-left: .5em;
+}
